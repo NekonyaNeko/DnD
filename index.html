@@ -7,8 +7,61 @@
 
     </head>
     <body>
+        <style>
 
-        <a href="campagnie 1.html"> campagnie 1 </a>
+            .container{
+                display: flex;
+                text-align: center;
+            }
 
+            .buttonmenu{
+                flex: 1;
+            }
+
+            .contenu{
+                display: none;
+                background-color: #f1f1f1;
+                
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                
+            }
+
+
+            .contenu :hover {background-color: #ddd;}
+            .howerbutton:hover .contenu {display: block;}
+            
+        </style>
+        <div class="container">
+        <div class="buttonmenu" >
+            <div class="howerbutton">
+                <button><a href="campagnie 1.html"> campagnie 1 </a></button>
+                <div class="contenu">
+                    <a href="#">Contexte</a>
+                    <a href="#">Personnage</a>
+                    <a href="#">Historique Des Session</a>
+                </div>
+            </div>
+        </div>    
+        <div class="buttonmenu">
+            <div class="howerbutton">
+                <button><a href="campagnie 2.html"> campagnie 2 </a></button>
+                <div class="contenu">
+                    <a href="#">Contexte</a>
+                    <a href="#">Personnage</a>
+                    <a href="#">Historique Des Session</a>
+                </div>
+            </div>
+        </div>    
+        <div class="buttonmenu">
+            <div class="howerbutton">
+                <button><a href="campagnie 2.html"> Possibilité </a></button>
+                <div class="contenu">
+                    <a href="#">Race</a>
+                    <a href="#">Classe</a>
+                </div>
+            </div>
+        </div>      
+        </div>
     </body>
 </html>
