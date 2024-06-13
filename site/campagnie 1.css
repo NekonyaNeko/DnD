@@ -1,0 +1,15 @@
+img {
+    width: 1800px;
+    height: 900px;
+    display: inline-block;
+    margin-left: 0;
+    object-fit: cover;
+    margin-top: 20px;
+}
+.imagebutton {
+    width: 1800px;
+    height: 900px;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}

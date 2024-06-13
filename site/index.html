@@ -1,0 +1,68 @@
+<html>
+    <head>
+         <meta charset="UTF-8"  >
+        <title>
+            DnD 
+        </title>
+
+    </head>
+    <body>
+        <style>
+
+            .container{
+                display: flex;
+                text-align: center;
+            }
+
+            .buttonmenu{
+                flex: 1;
+            }
+
+            .contenu{
+                display: none;
+                background-color: #f1f1f1;
+                
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                
+            }
+
+
+            .contenu :hover {background-color: #ddd;}
+            .howerbutton:hover .contenu {display: block;}
+            
+        </style>
+        <div class="container">
+        <div class="buttonmenu" >
+            <div class="howerbutton">
+                <button><a href="#"> campaigns </a></button>
+                <div class="contenu">
+                    <a href="campagnie 1.html">première</a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div>    
+        <div class="buttonmenu">
+            <div class="howerbutton">
+                <button><a href="Oneshot.html"> one shot </a></button>
+                <div class="contenu">
+                    <a href="#"></a>
+                    <a href="#">Hardcore</a>
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div>    
+        <div class="buttonmenu">
+            <div class="howerbutton">
+                <button><a href="#"> Possibilité </a></button>
+                <div class="contenu">
+                    <a href="#">Race</a>
+                    <a href="#">Classe</a>
+                    <a href="#">Homebrew</a>
+                </div>
+            </div>
+        </div>      
+        </div>
+    </body>
+</html>
